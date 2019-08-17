@@ -11,4 +11,7 @@ navbar:
       href: CV.html
     - text: "Data Portfolio"
       href: Data_Portfolio.html
+output:
+  html_document:
+    theme: yeti
       
