@@ -1,0 +1,14 @@
+name: "Personal Website"
+output_dir: "."
+navbar:
+  title: "Jason Williams"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+    - text: "CV"
+      href: CV.html
+    - text: "Data Portfolio"
+      href: Data_Portfolio.html
+      

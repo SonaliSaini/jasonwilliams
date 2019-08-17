@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Jason Williams, PhD</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jason Williams</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+<li>
+  <a href="Data_Portfolio.html">Data Portfolio</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Jason Williams, PhD</h1>
+
+</div>
+
+
+<p>Water Quality Analyst | Idaho Department of Environmental Quality | <a href="mailto:jjwill04@gmail.com" class="email">jjwill04@gmail.com</a> | <a href="mailto:jason.williams@deq.idaho.gov" class="email">jason.williams@deq.idaho.gov</a></p>
+<hr />
+<div id="education" class="section level3">
+<h3>Education</h3>
+<ul>
+<li><p>PhD, 2016, Engineering Science, Washington State University, Department of Civil &amp; Environmental Engineering</p></li>
+<li><p>M.S., 2006, SUNY Environmental Science and Forestry School, Department of Environmental and Forest Biology</p></li>
+<li><p>B.A., 2004, Biology, Augustana College (Rock Island, IL)</p></li>
+</ul>
+<hr />
+</div>
+<div id="employment" class="section level3">
+<h3>Employment</h3>
+<ul>
+<li><p>Water Quality Analyst, Idaho Department of Environmental Quality (October 2017-present)</p></li>
+<li><p>Scientist 3 / Federal Report Coordinator, Idaho Department of Environmental Quality (October 2016-October 2017)</p></li>
+<li><p>Environmental Scientist, TerraGraphics Environmental Engineering (2009-2012)</p></li>
+<li><p>Research Technician, Department of Biological Sciences, Dartmouth College (2007-2009)</p></li>
+<li><p>Aquatic Ecology Technician, NOAA Great Lakes Environmental Research Lab (2004)</p></li>
+</ul>
+<hr />
+</div>
+<div id="academic-appointments" class="section level3">
+<h3>Academic Appointments</h3>
+<ul>
+<li><p>Postdoctoral Researcher, National Park Service Air Resources Division &amp; Washington State University (2016)</p></li>
+<li><p>Policy Fellowship, USEPA Clean Air Markets Division, Assessment and Communications Branch, Washington D.C. (funded by National Science Foundation) (2013)</p></li>
+<li><p>National Science Foundation Fellowship: Nitrogen Systems Policy-oriented Integrated Research and Education (NSPIRE), Washington State University (2012-2014)</p></li>
+<li><p>National Science Foundation Research Experience for Undergraduates Exotic Species Program, Eastern Illinois University (2003)</p></li>
+</ul>
+<hr />
+</div>
+<div id="peer-reviewed-publications" class="section level3">
+<h3>Peer-Reviewed Publications</h3>
+<ol style="list-style-type: decimal">
+<li><p>Williams, J.J., Lynch, J.A., Saros, J.E., Labou, S.G. 2017. <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1955">Critical loads of atmospheric N deposition for phytoplankton nutrient limitation shifts in western U.S. mountain lakes.</a> Ecosphere 8(10): e01955. (open access)</p></li>
+<li><p>Williams, J.J., Labou, S.G. 2017. <a href="https://www.nature.com/articles/sdata201769">A database of georeferenced nutrient chemistry data for mountain lakes of the Western United States.</a> Scientific Data.4: 170069. (open access)</p></li>
+<li><p>Williams, J.J., Chung, S.H., Johansen, A.M., Lamb, B.K., Vaughan, J.K., Beutel, M. 2017. <a href="https://www.sciencedirect.com/science/article/pii/S1352231016309426">Evaluation of atmospheric nitrogen deposition model performance in the context of U.S. critical load assessments.</a> Atmospheric Environment 150 244-255.</p></li>
+<li><p>Williams, J.J., Nurse, A., Saros, J.E., Riedel, J., Beutel, M. 2016. <a href="https://link.springer.com/article/10.1007/s10533-016-0264-y">Effects ofglaciers on nutrient concentrations and phytoplankton in lakes within the Northern Cascades Mountains (USA).</a> Biogeochemistry 13(3) 373-376. <a href="https://link.springer.com/article/10.1007/s10533-016-0282-9">ERRATUM</a></p></li>
+<li><p>Williams, J.J., Beutel, M., Nurse, A., Moore, B., Hampton, S.E., Saros, JE. 2016. <a href="https://link.springer.com/article/10.1007/s10750-016-2758-y">Phytoplankton responses to nitrogen enrichment in Pacific Northwest, USA mountain lakes.</a> Hydrobiologia 776(1) 261-276.</p></li>
+<li><p>Chen, C.Y., Ward, D.M., Williams, J.J., Fisher, N.S. 2016. <a href="https://www.mdpi.com/2077-1312/4/2/41">Metal bioaccumulation by estuarine foodwebs in New England, USA.</a> Journal of Marine Science and Engineering 4(2) 41. (open access)</p></li>
+<li><p>Chen, C.Y., Borsuk, M.E., Bugge, D.M., Hollweg, T., Balcom, P.H., Ward, D.M., Williams, J.J., Mason, R.P. 2014. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089305">Benthic and pelagic pathways of methylmercury bioaccumulation in estuarine food webs of the Northeast United States.</a> PLOS One 9(2) e89305. (open access)</p></li>
+<li><p>Chen, C.Y., Kamman, N., Williams, J., Bugge, D., Taylor, V., Jackson, B., Miller, E. 2012. <a href="https://www.sciencedirect.com/science/article/pii/S0269749111005008">Spatial and temporal variation in mercury bioaccumulation by zooplankton in Lake Champlain (North America).</a> Environmental Pollution 161: 343-349.</p></li>
+<li><p>Williams, J.J., Dutton, J., Chen, C.Y., Fisher, N.S. 2010. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3087379/">Metal (As, Cd, Hg, and CH3Hg) bioaccumulation from water and food by the benthic amphipod Leptocheirus plumulosus.</a> Environmental Toxicology and Chemistry 29(8) 1755-1761. (open access)</p></li>
+<li><p>Williams, J.J., Pedersen, C.L. 2004. <a href="https://www.tandfonline.com/doi/pdf/10.1080/02705060.2004.9664545">Diel vertical migration in Daphnia lumholtzi (Sars).</a> Journal of Freshwater Ecology 19(2) 305-311. (open access)</p></li>
+</ol>
+<hr />
+</div>
+<div id="selected-scientific-presentations-over-20-presentations-total" class="section level3">
+<h3>Selected Scientific Presentations (over 20 presentations total)</h3>
+<ol style="list-style-type: decimal">
+<li><p>Williams, J.J. March 27, 2019. Tracking Nitrate Contamination and Septic Effluent in an Urbanizing Dryland Agricultural Watershed. National Water Quality Monitoring Conference, Denver, CO.</p></li>
+<li><p>Williams, JJ, Nurse, A, Saros, JE, Riedel, J, Beutel, M. October 18, 2016. Comparison of Nitrate Chemistry and Phytoplankton Between Glacier-fed and Snow-fed Mountain Lakes Within North Cascades National Park. MtnClim Conference, Leavenworth, WA.</p></li>
+<li><p>Williams, JJ, Beutel, M, Nurse, A. October 19, 2015. Phytoplankton Responses to Nutrient Enrichment in High Elevation Lakes at Mount Rainier, North Cascades, and Olympic National Parks. 9th International Acid Rain Conference, Rochester, NY (poster, won best student poster award)</p></li>
+<li><p>Williams, JJ, Dutton, J, Chen, CY, and Fisher, NS. 4-16-10. Metal (As, Cd, Hg, CH3Hg) Bioaccumulation from Water and Food by the Benthic Amphipod Leptocheirus plumulosus. Pacific Northwest Chapter of the Society for Environmental Toxicology and Chemistry 19th Annual Meeting, Port Townsend, WA (oral presentation)</p></li>
+</ol>
+<hr />
+</div>
+<div id="funded-research-grants-140510-total" class="section level3">
+<h3>Funded Research Grants ($140,510 total)</h3>
+<ol style="list-style-type: decimal">
+<li><p>‘Nutrient Enrichment Critical Loads of Atmospheric Nitrogen Deposition for Aquatic Ecosystems in the Western U.S.’, J. Williams (co-PI) and M. Beutel (co-PI), 2015-2017, National Park Service Air Resources Division, $49,671</p></li>
+<li><p>‘The CEREO News Room: Increasing the Visibility of CEREO Projects Through Interdisciplinary Training and Education’, J. Williams (PI), Todd Norton (co-PI), Lucrezia Paxon (co-PI), Brian Lamb (co-PI), 2014-2015, WSU Center for Environmental Research Education and Outreach (CEREO), $15,000</p></li>
+<li><p>‘Modeling &amp; Mapping Nitrogen Deposition Rates at NCCN Parks’, J. Williams (co-PI) and M. Beutel (co-PI), 2014-2015, National Park Service NCCN Science Learning Network, $10,040</p></li>
+<li><p>‘Assessing the Sensitivity of High Elevation NCCN Lakes to Atmospheric Nitrogen Deposition Through Nutrient Enrichment Experiments’, J. Williams (co-PI) and M. Beutel (co-PI), 2013-2016, National Park Service Air Resources Division, $56,879</p></li>
+<li><p>‘An Assessment of Phytoplankton Community Composition in NCCN Lakes Sensitive to Nitrogen Deposition’, J. Williams (co-PI) and M. Beutel (co-PI), 2013, National Park Service NCCN Science Leaning Network, $4,585</p></li>
+<li><p>‘Effects of Glaciers on Chemistry of Mountain Lakes in the North Cascades National Park Complex’, J. Williams (PI), 2013, Mazamas Foundation Graduate Student Research Grant, $1,485</p></li>
+<li><p>“Effects of Glaciers on the Chemistry of Mountain Lakes in the North Cascades National Park Complex”, J. Williams (PI), 2013, American Alpine Club Research Grant, $850</p></li>
+<li><p>‘Horizontal Migration Behavior of Polyphemus pediculus’, J. Williams (PI), Sigma Xi Grant in Aid of Research, 2006, $1,000</p></li>
+<li><p>‘Phototaxis and Horizontal Migration by a Predatory Zooplankton’, J. Williams (PI), 2006, Society for Integrative and Comparative Biology Grant in Aid of Research ($1,000)</p></li>
+</ol>
+<hr />
+</div>
+<div id="awards-and-honors" class="section level3">
+<h3>Awards and Honors</h3>
+<ul>
+<li><p>2015 Best Student Poster Award, 9th International Conference on Acid Rain, Rochester New York</p></li>
+<li><p>2015 Russ and Anne Fuller Fellowship for Interdisciplinary Research, Washington State University</p></li>
+<li><p>2006 SUNY ESF LeRoy C. Stegeman Award for Invertebrate Biology</p></li>
+<li><p>2004 Glen T. Seaborg Nobel Travel Award (given by the Swedish Council of America)</p></li>
+<li><p>2004 Decatur (IL) Public Schools Young Alumni of the Year Award</p></li>
+<li><p>2002-2003 Rock Island (IL) Conservation Club Scholarship</p></li>
+<li><p>2002-2003 Isabelle Till Scholarship (Augustana College)</p></li>
+<li><p>2000-2004 Founders’ Scholarship (Augustana College)</p></li>
+</ul>
+<hr />
+</div>
+<div id="selected-training" class="section level3">
+<h3>Selected Training</h3>
+<ul>
+<li><p>2018 American Heart Association Heartsaver First Aid Training</p></li>
+<li><p>2017 SQL Level 1, Leap Fox Learning, Boise, ID</p></li>
+<li><p>2017 Project Management Fundamentals, Boise State University Center for Professional Development</p></li>
+<li><p>2015 Data Carpentry Workshop, Washington State University</p></li>
+<li><p>2015 Software Carpentry Workshop, Washington State University</p></li>
+<li><p>2013 Wilderness Medical Institute Wilderness First Aid Training</p></li>
+<li><p>2010 PSMJ Resources Project Management Bootcamp, Seattle WA</p></li>
+<li><p>2009 SAS (Statistical Software) Programming I: Essentials Online Course</p></li>
+<li><p>2009 40-hour HAZWOPER Certification (&amp; 2011, 2012 refreshers)</p></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

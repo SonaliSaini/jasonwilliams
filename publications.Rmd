@@ -1,0 +1,34 @@
+---
+title: "Publications"
+---
+****
+
+#### Peer-Reviewed Publications
+
+1. Williams, J.J., Lynch, J.A., Saros, J.E., Labou, S.G. 2017. [Critical loads of atmospheric N deposition for phytoplankton nutrient limitation shifts in western U.S. mountain lakes.](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1955) Ecosphere 8(10): e01955. (open access)
+
+2. Williams, J.J., Labou, S.G. 2017. [A database of georeferenced nutrient chemistry data for mountain lakes of the Western United States.](https://www.nature.com/articles/sdata201769) Scientific Data.4: 170069. (open access)
+
+3. Williams, J.J., Chung, S.H., Johansen, A.M., Lamb, B.K., Vaughan, J.K., Beutel, M. 2017. [Evaluation of atmospheric nitrogen deposition model performance in the context of U.S. critical load assessments.](https://www.sciencedirect.com/science/article/pii/S1352231016309426) Atmospheric Environment 150 244-255.
+
+4. Williams, J.J., Nurse, A., Saros, J.E., Riedel, J., Beutel, M. 2016. [Effects ofglaciers on nutrient concentrations and phytoplankton in lakes within the Northern Cascades Mountains (USA).](https://link.springer.com/article/10.1007/s10533-016-0264-y) Biogeochemistry 13(3) 373-376. [ERRATUM](https://link.springer.com/article/10.1007/s10533-016-0282-9)
+
+5. Williams, J.J., Beutel, M., Nurse, A., Moore, B., Hampton, S.E., Saros, JE. 2016. [Phytoplankton responses to nitrogen enrichment in Pacific Northwest, USA mountain lakes.](https://link.springer.com/article/10.1007/s10750-016-2758-y) Hydrobiologia 776(1) 261-276. 
+
+6. Chen, C.Y., Ward, D.M., Williams, J.J., Fisher, N.S. 2016. [Metal bioaccumulation by estuarine foodwebs in New England, USA.](https://www.mdpi.com/2077-1312/4/2/41) Journal of Marine Science and Engineering 4(2) 41. (open access)
+
+7. Chen, C.Y., Borsuk, M.E., Bugge, D.M., Hollweg, T., Balcom, P.H., Ward, D.M., Williams, J.J., Mason, R.P. 2014. [Benthic and pelagic pathways of methylmercury bioaccumulation in estuarine food webs of the Northeast United States.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089305) PLOS One 9(2) e89305. (open access)
+
+8. Chen, C.Y., Kamman, N., Williams, J., Bugge, D., Taylor, V., Jackson, B., Miller, E. 2012. [Spatial and temporal variation in mercury bioaccumulation by zooplankton in Lake Champlain (North America).](https://www.sciencedirect.com/science/article/pii/S0269749111005008) Environmental Pollution 161: 343-349. 
+
+9. Williams, J.J., Dutton, J., Chen, C.Y., Fisher, N.S. 2010. [Metal (As, Cd, Hg, and CH3Hg) bioaccumulation from water and food by the benthic amphipod Leptocheirus plumulosus.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3087379/) Environmental Toxicology and Chemistry 29(8) 1755-1761. (open access)
+
+10. Williams, J.J., Pedersen, C.L. 2004. [Diel vertical migration in Daphnia lumholtzi (Sars).](https://www.tandfonline.com/doi/pdf/10.1080/02705060.2004.9664545) Journal of Freshwater Ecology 19(2) 305-311. (open access)
+
+****
+
+#### Selected Reports
+
+1. Williams, J.J. 2019. [An evaluation of septic effluent presence and spatial distribution in the Lindsay Creek Watershed.](http://www.deq.idaho.gov/media/60182525/evaluation-septic-effluent-presence-spatial-distribution-lindsay-creek-watershed.pdf) Idaho Department of Environmental Quality.
+
+2. Williams, J.J. 2019. [Ground Water and Surface Water Nitrate Patterns in the Lewiston Basin (Nez Perce County, Idaho) 1876-2019](https://www.deq.idaho.gov/media/60182780/ground-water-surface-water-nitrate-patterns-lewiston-basin-1976-2018.pdf). Idaho Department of Environmental Quality.

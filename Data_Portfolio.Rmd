@@ -1,0 +1,18 @@
+---
+title: "Data Portfolio"
+---
+****
+
+#### <span style = "color:darkblue"> A Database of georeferenced nutrient chemistry data for mountain lakes of the Western United States </span>
+
+Human activities have increased atmospheric nitrogen and phosphorus deposition rates relative to pre-industrial background. In the Western U.S., anthropogenic nutrient deposition has increased nutrient concentrations and stimulated algal growth in at least some remote mountain lakes. The Georeferenced Lake Nutrient Chemistry (GLNC) Database was constructed to create a spatially-extensive lake chemistry database needed to assess atmospheric nutrient deposition effects on Western U.S. mountain lakes. The database includes nitrogen and phosphorus water chemistry data spanning 1964–2015, with 148,336 chemistry results from 51,048 samples collected across 3,602 lakes in the Western U.S. Data were obtained from public databases, government agencies, scientific literature, and researchers, and were formatted into a consistent table structure. All data are georeferenced to a modified version of the National Hydrography Dataset Plus version 2. The database is transparent and reproducible; R code and input files used to format data are provided in an appendix. The database will likely be useful to those assessing spatial patterns of lake nutrient chemistry associated with atmospheric deposition or other environmental stressors.
+
+[Journal Article](https://www.nature.com/articles/sdata201769) | [Data](https://doi.org/10.6084/m9.figshare.4578544)
+
+****
+#### <span style = "color: darkblue"> Phytoplankton responses to nitrogen enrichment in Pacific Northwest, USA mountain lakes </span>
+
+Nutrient enrichment experiments were conducted mountain lakes within Mount Rainier, North Cascades, and Olympic National Parks in Washington State, USA. Objectives were to characterize phytoplankton species and biomass responses to nitrogen enrichment, and to define associated nitrogen response thresholds for mountain lakes in these parks. Available data include cell densities of phytoplankton taxa, chlorophyll a, and water chemistry data from experiments. 
+
+[Journal Article](https://link.springer.com/article/10.1007/s10750-016-2758-y) | [Data](https://datadryad.org/resource/doi:10.5061/dryad.4fp90)
+
