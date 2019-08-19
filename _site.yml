@@ -3,8 +3,10 @@ output_dir: "."
 navbar:
   title: "Jason Williams"
   left:
+  - text: "Home"
+    href: index.html
   - text: "Publications"
-    href: Publications.html
+    href: publications.html
   - text: "Data Portfolio"
     href: Data_Portfolio.html
   - text: "CV"
