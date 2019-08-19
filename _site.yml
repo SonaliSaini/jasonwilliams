@@ -1,17 +1,9 @@
-name: "Personal Website"
+name: "nicks-website"
 output_dir: "."
 navbar:
-  title: "Jason Williams"
+  title: "Nicks Website"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "Publications"
-      href: publications.html
-    - text: "CV"
-      href: CV.html
-    - text: "Data Portfolio"
-      href: Data_Portfolio.html
-output:
-  html_document:
-    theme: yeti
-      
+  - text: "Home"
+    href: index.html
+  - text: "About Me"
+    href: about.html
