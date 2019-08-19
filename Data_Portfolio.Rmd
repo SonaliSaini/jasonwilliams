@@ -15,4 +15,3 @@ Human activities have increased atmospheric nitrogen and phosphorus deposition r
 Nutrient enrichment experiments were conducted mountain lakes within Mount Rainier, North Cascades, and Olympic National Parks in Washington State, USA. Objectives were to characterize phytoplankton species and biomass responses to nitrogen enrichment, and to define associated nitrogen response thresholds for mountain lakes in these parks. Available data include cell densities of phytoplankton taxa, chlorophyll a, and water chemistry data from experiments. 
 
 [Journal Article](https://link.springer.com/article/10.1007/s10750-016-2758-y) | [Data](https://datadryad.org/resource/doi:10.5061/dryad.4fp90)
-

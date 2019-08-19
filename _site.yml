@@ -1,9 +1,11 @@
-name: "nicks-website"
+name: "Jason Williams"
 output_dir: "."
 navbar:
-  title: "Nicks Website"
+  title: "Jason Williams"
   left:
-  - text: "Home"
-    href: index.html
-  - text: "About Me"
-    href: about.html
+  - text: "Publications"
+    href: Publications.html
+  - text: "Data Portfolio"
+    href: Data_Portfolio.html
+  - text: "CV"
+    href: CV.html

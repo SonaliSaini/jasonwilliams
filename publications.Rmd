@@ -32,3 +32,4 @@ title: "Publications"
 1. Williams, J.J. 2019. [An evaluation of septic effluent presence and spatial distribution in the Lindsay Creek Watershed.](http://www.deq.idaho.gov/media/60182525/evaluation-septic-effluent-presence-spatial-distribution-lindsay-creek-watershed.pdf) Idaho Department of Environmental Quality.
 
 2. Williams, J.J. 2019. [Ground Water and Surface Water Nitrate Patterns in the Lewiston Basin (Nez Perce County, Idaho) 1876-2019](https://www.deq.idaho.gov/media/60182780/ground-water-surface-water-nitrate-patterns-lewiston-basin-1976-2018.pdf). Idaho Department of Environmental Quality.
+
